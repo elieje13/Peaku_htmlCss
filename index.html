@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eliecer Conrado" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Class of 1 - Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/index.css">
+
+</head>
+
+<body style="font-family: 'poppins'; background-color: #FEFCFB;">
+    <header class="container-fluid my-4">
+        <div class="row">
+            <div class="col-2 d-flex flex-row justify-content-center align-items-center">
+                <a class="navbar-brand me-2 me-xl-4" href="#">
+                    <img class="d-block" src="./assets/img/Logo.png" width="116" alt="Trabook"></a>
+            </div>
+            <div class="col-7">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <div class="collapse navbar-collapse d-flex flex-row justify-content-center align-items-center">
+                            <div class="navbar-nav">
+                                <a class="nav-link text-dark" href="#">Home</a>
+                                <a class="nav-link text-dark" href="#">About</a>
+                                <a class="nav-link text-dark" href="#">Destination</a>
+                                <a class="nav-link text-dark" href="#">Tour</a>
+                                <a class="nav-link text-dark" href="#">Blog</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-3 d-flex flex-row justify-content-center align-items-center">
+                <button class="btn" style="color: #fa7436;">Login</button>
+                <button class="btn bg-primary text-light m-1" style="background-color: #fa7436!important;">Sign
+                    up</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container-fluid my-5">
+
+        <section style="margin-top: 150px;">
+            <div class="container my-5">
+                <div class="row d-flex flex-row align-items-center" style="justify-content: space-between;">
+
+
+                    <div class="col-6" style="margin-left: -50px;">
+                        <h1 style="font-size: 70px; font-family: 'Noto Sans Display'"><b>Get started your
+                                exciting <b style="color: #FA7436;">journey</b> with us.</b></h1>
+                        <p class="my-5 text-secondary" style="font-size: 15px;">A Team of experienced tourism
+                            professionals will provide you with the best advice and tips for your desire place.</p>
+                        <button type="button" class="btn btn-primary btn-lg"
+                            style="background-color: #fff!important; color: #FA7436; border: #FA7436 1px solid; padding: 10px 25px ;"><b>Discover
+                                Now</b></button>
+                    </div>
+
+
+                    <div class="col-6">
+
+                        <div class="position-relative" style="width: auto; height: 550px;">
+                            <img class="position-absolute top-50 start-50 translate-middle"
+                                src="./assets/img/turism.png" alt="img-turista" style="z-index: -1; width: 550px;">
+
+                            <div class="m-5 position-relative" style="z-index: 1 ; width: 650px; height: 450px;">
+
+
+                                <div class="copa card d-flex flex-row position-absolute top-0 start-0 translate-middle"
+                                    style="text-align: center;">
+                                    <img class="m-2" src="./assets/img/151348/trophy-removebg-preview 1.png"
+                                        alt="premio">
+                                    <p style="text-align: start;"><b>Best Tour Awards</b></p>
+                                </div>
+
+
+                                <div class="map card d-flex flex-row position-absolute top-50 start-50 translate-middle"
+                                    style="text-align: center;">
+                                    <img class="m-3" src="./assets/img/151348/google-maps 1.png" alt="premio">
+                                    <p style="text-align: left ; font-size: 15px;"><b
+                                            style="font-size: 20px;">Explore</b><br>Every cornar
+                                        of the world with us</p>
+                                </div>
+
+
+                                <div class="star card d-flex flex-row position-absolute top-100 start-0 translate-middle"
+                                    style="text-align: center;">
+                                    <img class="m-3" src="./assets/img/151348/star 1.png" alt="premio">
+                                    <p style="text-align: left ;font-size: 15px;"><b
+                                            style="font-size: 20px;">27K</b><br>Customer Reviewd</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5 me-xl-4 d-flex flex-row align-items-center">
+                    <div class="col-12" style="margin-top: 150px;">
+
+
+
+                        <div class="dropdown d-flex flex-row justify-content-around align-items-center"
+                            style="text-align: start;background-color: #fff; padding: 30px; border-radius: 10px; box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.1);">
+
+                            <div>
+                                <button class="btn btn-lg dropdown-toggle"
+                                    style="background-color: #fff; border: #FFF 1px solid;" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Location</b>
+                                </button>
+                                <p>Where are you going</p>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-lg dropdown-toggle"
+                                    style="background-color: #fff; border: #FFF 1px solid;" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Date</b>
+                                </button>
+                                <p>When you will go</p>
+                            </div>
+
+                            <div>
+                                <button class="btn btn-lg dropdown-toggle"
+                                    style="background-color: #fff; border: #FFF 1px solid;" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <b>Guest</b>
+                                </button>
+                                <p>Number of guest</p>
+                            </div>
+
+                            <div>
+                                <button type="button" class="btn btn-lg btn-primary"
+                                    style="background-color: #FA7436; border: #FA7436 1px solid; padding: 15px 20px;">Explore
+                                    Now</button>
+                            </div>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 150px; background-color: #F7F8FC; padding: 100px;">
+
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <center>
+                        <h1 style="font-family: 'Noto Sans Display'; font-size: 50px;"><b>Things you need <k
+                                    style="color: #FA7436;">to do</k></b>
+                        </h1>
+                        <br>
+                        <p class="text-secondary">We ensure that you’ll embark on a perfectly planned, <br> safe
+                            vacation
+                            at a
+                            price you can afford. </p>
+                        <div class="position-relative">
+                            <img class="position-absolute top-0 end-0" src="./assets/img/Element.png" alt="avion">
+                        </div>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-12 d-flex justify-content-around">
+
+
+
+                    <a href="#" class="card text-decoration-none"
+                        style="width: 22rem; padding: 15px; box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.1);">
+                        <img src="./assets/img/Group (2).png" class="card-img-top" alt="Sign up"
+                            style="width: 50px; border-radius: 10px; margin: 20px;">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Sign Up</b></h5>
+                            <p class="card-text">Completes all the work associated with planning and processing</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none"
+                        style="width: 22rem; padding: 15px; box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.1);">
+                        <img src="./assets/img/Group.png" class="card-img-top" alt="Sign up"
+                            style="width: 50px; border-radius: 10px; margin: 20px;">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Worth of Money</b></h5>
+                            <p class="card-text">After successful access then book from exclusive deals & pricing</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none"
+                        style="width: 22rem; padding: 15px; box-shadow: 0px 0px 13px -3px rgba(0,0,0,0.1);">
+                        <img src="./assets/img/Group (1).png" class="card-img-top" alt="Sign up"
+                            style="width: 50px; border-radius: 10px; margin: 20px;">
+                        <div class="card-body">
+                            <h5 class="card-title"><b>Exciting Travel</b></h5>
+                            <p class="card-text">Start and explore a wide range of exciting travel experience.</p>
+                        </div>
+                    </a>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section style="margin-top: 150px; background-color: #fff; padding: 100px;">
+
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <center>
+                        <h1 style="font-family: 'Noto Sans Display'; font-size: 50px;"><b>Exclusive <k
+                                    style="color: #FA7436;">deals & discounts</k></b>
+                        </h1>
+                        <br>
+                        <p class="text-secondary">Discover our fantastic early booking discounts <br> & start planning
+                            your journey.</p>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-12 d-flex justify-content-between">
+
+
+                    <a href="#" class="card text-decoration-none" style="width: 18rem;">
+                        <img src="./assets/img/Image (1).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body">
+                            <img src="assets/img/2554/Upper content.png" alt="">
+                            <br><br>
+                            <img src="assets/img/2554/Bottom Content.png" alt="">
+                        </div>
+                    </a>
+
+
+                    <a href="#" class="card text-decoration-none" style="width: 18rem;">
+                        <img src="./assets/img/Image.png" class="card-img-top" alt="img-firenze">
+                        <div class="card-body">
+                            <img src="assets/img/2554/Upper Content (1).png" alt="">
+                            <br><br>
+                            <img src="assets/img/2554/FooterContent.png" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none" style="width: 18rem;">
+                        <img src="./assets/img/Image (2).png" class="card-img-top" alt="img-páris">
+                        <div class="card-body">
+                            <img src="assets/img/2554/Upper Content (2).png" alt="">
+                            <br><br>
+                            <img src="assets/img/2554/FooterContent (1).png" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none" style="width: 18rem;">
+                        <img src="./assets/img/Image (3).png" class="card-img-top" alt="img-londo">
+                        <div class="card-body">
+                            <img src="assets/img/2554/Upper Content (3).png" alt="">
+                            <br><br>
+                            <img src="assets/img/2554/Footer Content.png" alt="">
+                        </div>
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="row my-5" style="text-align: center;">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <button class="btn round-button">
+                        <img src="./assets/img/2554/Arrow 1.png" alt="btn">
+                    </button>
+                    <button class="btn round-button2">
+                        <img src="./assets/img/2554/Arrow 2.png" alt="btn">
+                    </button>
+                </div>
+            </div>
+
+        </section>
+
+        <section style="margin-top: 150px; background-color: #fff; padding: 100px;">
+
+
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <center>
+                        <div class="position-relative" style="margin-left:500px;">
+                            <img class="position-absolute top-50 start-100 translate-middle"
+                                src="./assets/img/Element2.png" alt="avion">
+                        </div>
+                        <h1 style="font-family: 'Noto Sans Display'; font-size: 50px;"><b>Best <k
+                                    style="color: #FA7436;">vacation plan</k></b>
+                        </h1>
+                        <br>
+                        <p class="text-secondary">Plan your perfect vacation with our travel agency. <br> Choose among
+                            hundreds of all-inclusive offers! </p>
+                    </center>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center position-relative">
+
+
+                    <div class="position-absolute top-0 end-0 d-flex flex-row justify-content-center align-items-center"
+                        style="width: 50px; height: 10px;">
+                        <button class="btn round-button" style="margin-right: 20px;">
+                            <img src="./assets/img/2554/Arrow 1.png" alt="btn">
+                        </button>
+
+                        <button class="btn round-button2">
+                            <img src="./assets/img/2554/Arrow 2.png" alt="btn">
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-12 d-flex justify-content-between">
+
+                    <a href="#" class="card text-decoration-none" style="width: 22rem;">
+                        <img src="./assets/img/2555/Image (2).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body">
+                            <img src="assets/img/2555/Upper Content.png" alt="">
+                            <br><br>
+                            <img src="assets/img/2555/FooterContent.png" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none" style="width: 22rem;">
+                        <img src="./assets/img/2555/Image.png" class="card-img-top" alt="img-spain">
+                        <div class="card-body">
+                            <img src="assets/img/2555/Upper Content (1).png" alt="">
+                            <br><br>
+                            <img src="assets/img/2555/FooterContent (1).png" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#" class="card text-decoration-none" style="width: 22rem;">
+                        <img src="./assets/img/2555/Image (1).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body">
+                            <img src="assets/img/2555/Upper Content (2).png" alt="">
+                            <br><br>
+                            <img src="assets/img/2555/FooterContent.png" alt="">
+                        </div>
+                    </a>
+
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section style="margin-top: 150px; background-color: #F7F8FC; padding: 100px;">
+
+
+            <div class="row">
+
+                <div class="col-6 d-flex flex-column justify-content-center align-items-center">
+                    <center>
+                        <h1 style="font-family: 'poppins Display'; font-size: 50px;"><b>What people say<br>
+                                <k style="color: #FA7436;">about Us.</k>
+                            </b>
+                        </h1>
+                    </center>
+                    <p class="text-secondary">Our Clients send us bunch of smilies with our services<br>
+                        and we love them.</p>
+
+                    <div class="d-flex flex-row justify-content-start align-items-start">
+                        <button class="btn round-button" style="margin-right: 30px;">
+                            <img src="./assets/img/2554/Arrow 1.png" alt="btn">
+                        </button>
+                        <button class="btn round-button2">
+                            <img src="./assets/img/2554/Arrow 2.png" alt="btn">
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col-6 d-flex flex-row justify-content-center align-items-center">
+
+                    <div class="position-relative" style="width: 100%; height: 100%;">
+                        <img src="./assets/img/Element3.png" alt="avion"
+                            class="position-absolute top-0 start-100 translate-middle">
+
+                        <img src="./assets/img/Image (7).png" alt="risa"
+                            class="position-absolute top-0 start-0 translate-middle" style="z-index: 1;">
+
+                        <div class="card position-absolute top-0 start-0"
+                            style="width: 450px; height: 250px ; padding: 20px;">
+
+                            <div class="card-body">
+                                <p class="card-text">“On the Windows talking painted pasture yet its express parties
+                                    use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+                                <h5 class="card-title"><b>Mike taylor</b></h5>
+                                <p class="text-secondary">Lahore, Pakistan</p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section style="margin-top: 150px; background-color: #fff; padding: 100px;">
+            <div class="row">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <center>
+                        <h1 style="font-family: 'Noto Sans Display'; font-size: 50px;"><b>Get update with<k
+                                    style="color: #FA7436;"> latest blog</k></b>
+                        </h1>
+                    </center>
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 100px;">
+                <div class="col-12 d-flex justify-content-around">
+
+                    <a href="#" class="text-decoration-none" style="width: 20rem; text-align: left;">
+                        <img src="./assets/img/Image (8).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body" style="color: black;">
+                            <h5><b>The Amazing Difference a Year of Travelling.</b></h5>
+                            <p class="text-secondary">July 27, 2021</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-decoration-none" style="width: 20rem; text-align: left;">
+                        <img src="./assets/img/Image (4).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body" style="color: black;">
+                            <h5><b>Travel far enough, you meet yourself.</b></h5>
+                            <p class="text-secondary">July 27, 2021</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-decoration-none" style="width: 20rem; text-align: left;">
+                        <img src="./assets/img/Image (5).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body" style="color: black;">
+                            <h5><b>How to Save Money While Visiting Africa.</b></h5>
+                            <p class="text-secondary">July 27, 2021</p>
+                        </div>
+                    </a>
+
+                    <a href="#" class="text-decoration-none" style="width: 20rem; text-align: left;">
+                        <img src="./assets/img/Image (6).png" class="card-img-top" alt="img-spain">
+                        <div class="card-body" style="color: black;">
+                            <h5><b>Reflections on 5 Months of Travel: Time to Hang</b></h5>
+                            <p class="text-secondary">July 27, 2021</p>
+                        </div>
+                    </a>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="row" style="text-align: center;">
+                <div class="col-12 d-flex flex-row justify-content-center align-items-center">
+                    <div class="panel-body">
+                        <button type="button" class="btn btn-circle"></button>
+                        <button type="button" class="btn btn-circle btn-active"></button>
+                        <button type="button" class="btn btn-circle"></button>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer style="margin-top: 150px; background-color: #fff; padding: 100px; font-family: 'poppins';">
+
+
+        <div class="row">
+
+            <div class="col-12 position-relative"
+                style="background-color: #FA7436; width:100%; height: 500px; border-radius: 10px;">
+
+                <h1 class="position-absolute top-0 start-50 translate-middle-x my-5" style="color: #FFF; font-family: 'Volkhov'; width: 708px;
+                height: 124px; text-align: center; font-size: 48px;"><b>Subscribe and get exclusive <br>
+                        deals & offer</b>
+                </h1>
+                <img src="./assets/img/Element11.png" alt="caña" class="position-absolute top-0 end-0 m-4">
+
+                <nav class="navbar position-absolute top-50 start-50 translate-middle"
+                    style="border-radius: 10px;background-color: #FFF;">
+
+                    <div class="input-group">
+
+                        <span class="input-group-text" id="basic-addon1" style="border: none; background-color: #FFF;">
+                            <img src="./assets/img/2555/Rectangle 22.png" alt="ico-email">
+                        </span>
+                        <form class="d-flex flex-row">v 
+                            <input type="email" class="form-control" placeholder="Enter your mail"
+                                title="Proporcione solo una dirección de correo electrónico"
+                                aria-label="Enter your mail" aria-describedby="basic-addon1" style="border: none;"
+                                required>
+
+                            <input type="submit" class="btn btn-lg btn-primary m-2" value="Subscribe"
+                                style="background-color: #FA7436; border: #FA7436 1px solid;border-radius: 10px;">
+                            </input>
+                        </form>
+                    </div>
+
+                </nav>
+
+                <img src="./assets/img/Element (1).png" alt="globo" class="position-absolute bottom-0 start-0">
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+        <div class="row" style="margin-top: 150px; background-color: #fff; padding: 100px; font-family: 'poppins';">
+
+
+            <div class="col-5" style="text-align: start;">
+
+                <img src="./assets/img/Logo.png" alt="logo-footer">
+
+                <p class="my-4 text-secondary">Book your trip in minute, get full <br>
+                    Control for much longer.</p>
+
+                <button type="button" class="btn btn-light btn-circle btn-xl"><img
+                        src="./assets/img/icofooter/Facebook Icon.png" alt="ico-facebook">
+                </button>
+
+                <button type="button" class="btn btn-light btn-circle btn-xl2 m-4"><img
+                        src="./assets/img/icofooter/instagram 1.png" alt="ico-instagram">
+                </button>
+
+                <button type="button" class="btn btn-light btn-circle btn-xl"><img src="./assets/img/icofooter/tw.png"
+                        alt="ico-tw">
+                </button>
+            </div>
+
+
+            <div class="col-7">
+
+                <table class="table text" style="border: #fff;" style="border: none;">
+                    <thead>
+                        <tr>
+                            <th scope="col" style="border: none;">Company</th>
+                            <th scope="col">Contact</th>
+                            <th scope="col">More</th>
+                        </tr>
+                    </thead>
+                    <tbody style="border: none;">
+                        <tr>
+                            <td>About</td>
+                            <td>Help/FAQ</td>
+                            <td>Press Centre</td>
+                        </tr>
+                        <tr>
+                            <td>Careers</td>
+                            <td>Press</td>
+                            <td>Our Blog</td>
+                        </tr>
+                        <tr>
+                            <td>Logistic</td>
+                            <td>Affilates</td>
+                            <td>Low fare tips</td>
+                        </tr>
+                        <tr>
+                            <td>Privacy & Policy</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row"
+            style="margin-top: 100px; background-color: #fff; padding: 25px; font-family: 'poppins';border-top: 1px solid rgba(153, 153, 153, 0.56)">
+            <div class="col-12 d-flex justify-content-between">
+                <p class="text-secondary">Copyright, Trabook 2022. All rights reserved.</p>
+                <p class="text-secondary">Terms & Conditions</p>
+            </div>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+.copa {
+    position: absolute;
+    width: 150px;
+    height: 58px;
+    left: 989px;
+    top: 256px;
+    background: #FFFFFF;
+    box-shadow: -8px 8px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.map {
+    position: absolute;
+    width: 220px;
+    height: 80px;
+    left: 1372px;
+    top: 379px;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.star {
+    position: absolute;
+    width: 220px;
+    height: 70px;
+    left: 1027px;
+    top: 505px;
+
+    background: #FFFFFF;
+    box-shadow: -8px 8px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+}
+
+.round-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #eaeaea;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-button img {
+    width: 30px;
+    height: 30px;
+}
+
+.round-button2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fa7436;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round-button2 img {
+    width: 30px;
+    height: 30px;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 10);
+}
+
+.btn-circle.btn-xl2 {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+    background-color: #fa7436;
+    box-shadow: 0px 0px 5px 0px rgba(128, 128, 128, 10);
+}
+
+.btn-circle {
+    border: 1px solid #FFFFFF;
+    background-color: grey;
+    width: 20px;
+    height: 20px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+
+.btn-active {
+    background-color: #fa7436;
+}
+
+.text tbody tr td {
+    color: grey !important;
+    border: #FFFFFF 1px solid;
+}
